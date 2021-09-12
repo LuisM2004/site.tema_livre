@@ -1,0 +1,126 @@
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+header{
+    background-color:#C60009;
+    align-items: center;
+    margin-block-end: 5px;
+    text-align: center;
+
+}
+header #logo img{
+    width: 15vh;
+    margin-block-start: 10px;
+    margin-inline-end: 8px;
+
+}
+main{
+    text-align: center;
+}
+#int{
+    text-align: center;
+    margin-block-end: 10px;
+}
+#sobre #rio img{
+    width: 340px;
+    border: 1px solid black;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    font-size: 25px;
+    justify-content: center;
+    align-content: start;
+
+}
+nav ul li a{
+    list-style: none;
+    color: #fff;
+}
+#h-sobre{
+    margin-top: 13px;
+    margin-block-end: 7px;
+    color: #C60009;
+}
+#h-imagens{
+    margin-top: 13px;
+    margin-block-end: 7px;
+    color: #C60009;
+}
+#img-ct img{
+    width: 340px;
+    border: 1px solid black;
+}
+#img-camisa{
+    margin-block-start: 13px;
+    margin-inline-end: 7px;
+}
+#h-versos{
+    margin-block-start: 13px;
+    margin-inline-end: 7px;
+    color: #C60009;
+}
+#v-hino #hino{
+    margin-block-start: 13px;
+    margin-inline-end: 7px;
+    color: #C60009;
+}
+#r{
+    margin-block-start: 13px;
+    margin-inline-end: 7px;
+    color: #C60009;
+}
+footer #ref{
+    text-align: center;
+    margin-block-start: 13px;
+    margin-inline-end: 7px;
+    color: #C60009;
+}
+footer p{
+    text-align: center;
+}
+footer ul li a{
+    align-items: center;
+    margin-block-start: 15px;
+    margin-inline-end: 7px;
+    color: #C60009;
+}
+
+
+
+@media only screen and (min-width: 980px){
+    *{
+        margin-left: 1px;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+    #sobre #rio img{
+        width: 600px;
+        border: 1px solid black;
+    }
+    #img-ct img{
+        width: 700px;
+        border: 1px solid black;
+    }
+    #img-camisa img{
+        width: 300px;
+        border: 1px solid black;
+    }
+    #eterno{
+        margin-top: 13px;
+        margin-block-end: 10px;
+    }
+    #etero img{
+        margin-top: 13px;
+        margin-block-end: 10px;
+    }
+
+
+}
